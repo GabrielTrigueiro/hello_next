@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Navbar from "../components/Navbar";
 
 export default function About() {
     return (
         <>
-            <Link href={"/"}>Home</Link>
+            <Navbar/>
             <h1>página de about</h1>
         </>
     )
