@@ -13,6 +13,9 @@ export default function Navbar(){
             <li>
                 <Link href="/about">Sobre nós</Link>
             </li>
+            <li>
+                <Link href="/contact">Contatos</Link>
+            </li>
         </ul>
     )
 }
