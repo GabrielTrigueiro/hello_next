@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import Navbar from "./Navbar"
 
 export default function MainContainer({children}){
@@ -5,6 +6,7 @@ export default function MainContainer({children}){
         <>
             <Navbar/>
             <div>{children}</div>
+            <Footer/>
         </>
     )
 }
